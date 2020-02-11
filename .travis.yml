@@ -1,0 +1,34 @@
+language: python
+
+before_install:
+
+  - pip install awscli
+  - sudo apt-get install jq -y
+
+jobs:
+
+  include:
+
+  - stage: Deploy application to AWS ...
+
+    script:
+
+      - echo Deployment starts ...
+
+
+
+
+
+
+notifications:
+
+  slack:
+
+    on_pull_requests: true
+
+    rooms:
+     - juwai:fbVrH3u9xkfC95YsIFFsCcbO
+
+    on_success: always # default: always
+
+    on_failure: always # default: always
