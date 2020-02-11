@@ -16,6 +16,7 @@ jobs:
 
       - echo Deployment starts ...
       - echo $test_var
+      - echo $var_1
 
 
 
