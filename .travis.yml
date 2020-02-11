@@ -1,12 +1,10 @@
 language: shell
 
 env:
+  - var_3=oookkk
   - secure: "sr0zt8FaBV2YR5ZfF9DPXP+D0LRhEyzgkQcshNFKNXss7iZ61rpXbjRdxdeLCkOe18v5geLmUUwa5j+7Gzdr/IUPpSglimWdueK6MJNpqnJ+T7lST/lC5OYA49TKogNjlBxKltJpyOQfivfvIBeik78VBq19HJuOyNMef8GfApcRqhMs0HYleXL0oTUX++VmeGiyYvcWh6sBlZ69B34A3IHcwAXZtPk69x2908bCXYP2c8jpVWhcqp8sXQFbu4GkUvYbjrGpsa4ZZ3VAxXlg4L8DJraBFGMYkBKTGND4DyCf0lzniBvau6z3e4lqYNlMNag9RWNlidc+axuX2k94VJ0ojGn5+I4d49sO/0FgnMhAQ9rLBYyb6Kqg9G9DcsupVVTk0BDNCWbGtuH1QPA12DV/k1q2CzWU6QtFF7QQAcuJJX45ikdtCmyDGVTa0+6sSe+Rp9wBEFYBdBod0WkuwcaAhnWpt+3ESJvHU1IdYusHoxiuGfz8JeN5WOaXY/N3579vJ3V8aTbXEeKYOUhvV1E5qe2mL+5WRrA5wy5C9xRkooR2ZI1jwyETgVS8jbL+2Vra+A8uftF4NWHb1fuw/UMLg6bL5/Sv4Jl8sTmDJj9woC8pvG+s3PrZeDXXnOU9+nKghgPG1QfB/lDbhV6pDbwJBpe9ysLSFy9J/Lb5sXo="
   - var_2=ookk
-before_install:
-
-  - sudo apt-get install jq -y
-
+  - var_4=ookk4
 jobs:
 
   include:
