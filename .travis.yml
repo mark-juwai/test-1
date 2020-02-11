@@ -21,6 +21,7 @@ jobs:
       - echo $var_2
       - echo $var_3
       - echo $var_4
+      - sleep 300
 
 
 
