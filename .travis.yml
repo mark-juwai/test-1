@@ -17,7 +17,8 @@ jobs:
       - echo $test_var
       - echo $var_1
       - echo $var_2
-
+      - echo $var_3
+      - echo $var_4
 
 
 
